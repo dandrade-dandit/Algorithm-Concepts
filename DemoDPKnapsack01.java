@@ -25,9 +25,9 @@ public class DemoDPKnapsack01 {
     }
 
     public static void main(String[] args) {
-        int[] wt = {1, 3, 4, 5};
-        int[] val = {1, 4, 5, 7};
-        int wtGoal = 7;
+        int[] wt = {5,6,8,4,7,2};
+        int[] val = {50,50,64,46,50,5};
+        int wtGoal = 19;
 
         System.out.println(Knapsack01BottomUpDP(wt, val, wtGoal));
 

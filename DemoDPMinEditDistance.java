@@ -28,8 +28,8 @@ public class DemoDPMinEditDistance {
     }
 
     public static void main(String[] args) {
-        String str1 = "impartial"; //"abcdef";
-        String str2 = "parallel"; //"azced";
+        String str1 = "intention"; //"abcdef";
+        String str2 = "execution"; //"azced";
 
         System.out.println(MinEditDistanceBottomUpDP(str1, str2));
     }
