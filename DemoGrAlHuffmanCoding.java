@@ -44,6 +44,12 @@ public class DemoGrAlHuffmanCoding {
         // right sub-tree of the generated tree.
         printCode(root.left, s + "0");
         printCode(root.right, s + "1");
+
+        //Insert Code
+
+        System.out.println("Insert my code for this problem!");
+
+        //End of the Code
     }
 
     // main function
