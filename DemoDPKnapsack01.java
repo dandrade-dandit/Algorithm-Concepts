@@ -1,6 +1,7 @@
 public class DemoDPKnapsack01 {
 
     static int Knapsack01BottomUpDP (int[] wt, int[] val, int wtGoal) {
+        //0/1 Knapsack Dynamic Programing - BottomUP
         int[][] T = new int[wt.length][wtGoal+1];
 
         for (int i = 0; i < wt.length; i++) { //row
@@ -20,7 +21,6 @@ public class DemoDPKnapsack01 {
                 }
             }
         }
-
         return T[wt.length-1][wtGoal];
     }
 
