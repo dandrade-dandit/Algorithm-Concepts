@@ -46,8 +46,8 @@ public class DemoGrAlFractionalKnapsack {
     }
 
     public static void main(String[] args) {
-        int[] wt = {1, 3, 5, 4, 1, 3, 2};
-        int[] val = {5, 10, 15, 7, 8, 9, 4};
+        int[] wt = {1, 3, 5, 4, 1, 3, 2, 6};
+        int[] val = {5, 10, 15, 7, 8, 9, 4, 20};
         int wtGoal = 15;
         System.out.println(FractionalKnapsack(wt, val, wtGoal));
     }
