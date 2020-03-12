@@ -49,6 +49,6 @@ public class DemoGrAlFractionalKnapsack {
         int[] wt = {1, 3, 5, 4, 1, 3, 2, 6};
         int[] val = {5, 10, 15, 7, 8, 9, 4, 20};
         int wtGoal = 15;
-        System.out.println(FractionalKnapsack(wt, val, wtGoal));
+        System.out.println("The result of the Divide and Conquer - Fractional Knapsack problem is: " + FractionalKnapsack(wt, val, wtGoal));
     }
 }
