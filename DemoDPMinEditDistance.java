@@ -31,6 +31,6 @@ public class DemoDPMinEditDistance {
         String str1 = "intention"; //"abcdef";
         String str2 = "execution"; //"azced";
 
-        System.out.println(MinEditDistanceBottomUpDP(str1, str2));
+        System.out.println("The Minimun Edit Distance - Dynamic Programing (Bottom Up) Solution is: " + MinEditDistanceBottomUpDP(str1, str2));
     }
 }

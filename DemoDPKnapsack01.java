@@ -25,11 +25,11 @@ public class DemoDPKnapsack01 {
     }
 
     public static void main(String[] args) {
-        int[] wt = {5,6,8,4,7,2};
-        int[] val = {50,50,64,46,50,5};
+        int[] wt = {5,6,8,4,7,2,2};
+        int[] val = {50,50,64,46,50,45,30};
         int wtGoal = 19;
 
-        System.out.println(Knapsack01BottomUpDP(wt, val, wtGoal));
+        System.out.println("The 0/1 Kanpsack Problem - Dynamic Programing (Bottom Up) Solution is: " + Knapsack01BottomUpDP(wt, val, wtGoal));
 
     }
 }
