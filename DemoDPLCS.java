@@ -38,9 +38,9 @@ public class DemoDPLCS {
         if (T[i][j] != -1) return T[i][j];
 
         if (str1[i] == str2[j]) {
-            result += LCSNaive(s1, s2, i+1, j+1) + 1;
+            result += LCSMemDP(s1, s2, i+1, j+1, T) + 1;
         } else {
-            result += Math.max(LCSNaive(s1, s2, i+1, j), LCSNaive(s1, s2, i, j+1));
+            result += Math.max(LCSMemDP(s1, s2, i+1, j, T), LCSMemDP(s1, s2, i, j+1, T));
         }
 
         T[i][j] = result;
