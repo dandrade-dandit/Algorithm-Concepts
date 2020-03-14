@@ -38,9 +38,9 @@ public class DemoDPSubsetSum {
     }
 
     public static void main(String[] args) {
-        int n =14;
+        int n =11;
         int [] val = {2, 3, 7, 8, 10};
 
-        System.out.println(SubsetSumBottomUpDP(val, n));
+        System.out.println("The Subset Sum Problem - Dynamic Programing (Bottom Up) Solution is: " + SubsetSumBottomUpDP(val, n));
     }
 }

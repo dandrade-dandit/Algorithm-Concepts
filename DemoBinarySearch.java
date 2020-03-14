@@ -21,9 +21,9 @@ public class DemoBinarySearch {
 
     public static void main(String[] args) {
         int[] SampleArr = {4,5,7,9,13,16,14,15,19,2}; //must be sorted.
-        int key = 14;
+        int key = 20;
         Arrays.sort(SampleArr);
-        System.out.println("The result for a Binary Search of " + key + " is: " + BinarySearch(SampleArr,key,0,SampleArr.length));
+        System.out.println("The result for a Binary Search of " + key + " is: " + BinarySearch(SampleArr,key,0,SampleArr.length-1));
 
     }
 }
